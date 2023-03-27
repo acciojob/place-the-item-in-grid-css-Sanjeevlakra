@@ -3,9 +3,13 @@
 
 .holder{
 	display:grid;
-	grid-template-row:200px 200px;
-	grid-template-columns:200px 200px;
-	background-color:#2196F3;
-	gap:10px;
+	grid-template-columns:repeat(2, 100px);
+	grid-template-rows:repeat(2, 100px);
+	width:100px;
+	
+}
+.holder >div{
+	border:1px solid black;
 	padding:5px;
+	text-align:center;
 }
