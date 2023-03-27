@@ -1,2 +1,11 @@
 
 /* Your CSS Code here. */
+
+.holder{
+	display:grid;
+	grid-template-row:200px 200px;
+	grid-template-columns:200px 200px;
+	background-color:#2196F3;
+	gap:10px;
+	padding:5px;
+}
